@@ -1,6 +1,6 @@
 Name: cagibi
 Summary: An experimental cache/proxy system for the SSDPpart of UPnP
-Version: 0.1.0
+Version: 0.1.1
 Release: %mkrel 1
 Url: http://www.kde.org
 License: LGPLv2+
@@ -25,6 +25,19 @@ interested in.
 %defattr(-,root,root)
 %{_kde_bindir}/cagibid
 %{_kde_datadir}/dbus-1/services/org.kde.Cagibi.service
+
+#--------------------------------------------------------------------
+%package devel
+Summary: Development files for %name
+Group: Development/KDE and Qt
+Requires: %name = %version
+
+%description devel
+This package contains development files for %name.
+
+%files devel
+%defattr(-,root,root)
+%{_kde_libdir}/pkgconfig/*.pc
 
 #--------------------------------------------------------------------
 
