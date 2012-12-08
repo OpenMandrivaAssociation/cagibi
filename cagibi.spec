@@ -54,3 +54,19 @@ rm -rf %{buildroot}
 
 %clean
 rm -rf %{buildroot}
+
+
+%changelog
+* Tue May 03 2011 Oden Eriksson <oeriksson@mandriva.com> 0.1.1-2mdv2011.0
++ Revision: 663351
+- mass rebuild
+
+* Mon Aug 09 2010 Funda Wang <fwang@mandriva.org> 0.1.1-1mdv2011.0
++ Revision: 567816
+- New version 0.1.1
+
+* Thu Jul 29 2010 Funda Wang <fwang@mandriva.org> 0.1.0-1mdv2011.0
++ Revision: 563163
+- import cagibi
+
+
