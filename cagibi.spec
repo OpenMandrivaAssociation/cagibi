@@ -24,6 +24,10 @@ interested in.
 %files
 %{_kde_bindir}/cagibid
 %{_kde_datadir}/dbus-1/services/org.kde.Cagibi.service
+%{_sysconfdir}/%{name}.conf
+%{_sysconfdir}/dbus-1/system.d/org.kde.Cagibi.conf
+%{datadir}/dbus-1/interfaces/org.kde.Cagibi.*
+%{_datadir}/dbus-1/system-services/org.kde.Cagibi.service
 
 #--------------------------------------------------------------------
 %package	devel
@@ -31,11 +35,11 @@ Summary:	Development files for %{name}
 Group:		Development/KDE and Qt
 Requires:	%{name} = %{version}
 
-%description devel
-This package contains development files for %{name}.
+# %description devel
+# This package contains development files for %{name}.
 
-%files devel
-%{_kde_libdir}/pkgconfig/*.pc
+# %files devel
+#% {_kde_libdir}/pkgconfig/*.pc
 
 #--------------------------------------------------------------------
 
