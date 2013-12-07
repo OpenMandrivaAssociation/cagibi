@@ -1,7 +1,7 @@
 Summary:	An experimental cache/proxy system for the SSDPpart of UPnP
 Name:		cagibi
 Version:	0.2.0
-Release:	3
+Release:	4
 License:	LGPLv2+
 Group:		System/Libraries
 Url:		http://www.kde.org
