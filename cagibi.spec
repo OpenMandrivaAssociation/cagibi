@@ -1,7 +1,7 @@
 Summary:	An experimental cache/proxy system for the SSDPpart of UPnP
 Name:		cagibi
 Version:	0.2.0
-Release:	5
+Release:	6
 License:	LGPLv2+
 Group:		System/Libraries
 Url:		http://www.kde.org
@@ -23,10 +23,9 @@ interested in.
 
 %files
 %{_kde_bindir}/cagibid
-%{_kde_datadir}/dbus-1/services/org.kde.Cagibi.service
-%{_sysconfdir}/%{name}.conf
+%{_sysconfdir}/%{name}d.conf
 %{_sysconfdir}/dbus-1/system.d/org.kde.Cagibi.conf
-%{datadir}/dbus-1/interfaces/org.kde.Cagibi.*
+%{_datadir}/dbus-1/interfaces/org.kde.Cagibi.*
 %{_datadir}/dbus-1/system-services/org.kde.Cagibi.service
 
 #--------------------------------------------------------------------
