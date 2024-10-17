@@ -4,7 +4,7 @@ Version:	0.2.0
 Release:	14
 License:	LGPLv2+
 Group:		System/Libraries
-Url:		http://www.kde.org
+Url:		https://www.kde.org
 Source0:	http://fr2.rpmfind.net/linux/KDE/stable/cagibi/%{name}-%{version}.tar.bz2
 
 BuildRequires:	automoc4
