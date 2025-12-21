@@ -7,6 +7,7 @@ Group:		System/Libraries
 Url:		https://www.kde.org
 Source0:	http://fr2.rpmfind.net/linux/KDE/stable/cagibi/%{name}-%{version}.tar.bz2
 
+BuildRequires:	make
 BuildRequires:	automoc4
 BuildRequires:	kde4-macros
 BuildRequires:	qt4-devel
